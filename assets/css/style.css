@@ -1,0 +1,36 @@
+
+body {
+    padding: 0 20px;
+}
+
+.container {
+    background-color: grey;
+}
+
+.header {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.grid .row {
+    background-color: lightblue;
+    margin-bottom: 10px;
+    min-height: 60px;
+}
+
+.grid .grid-element {
+    padding: 10px;
+    background-color: grey;
+    color: black;
+    border: 1px solid orange;
+    text-align: center;
+    min-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grid .controls {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
